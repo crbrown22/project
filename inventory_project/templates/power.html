@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Image and text -->
+    <!--Funawesome CDN-->
+    <script src="https://kit.fontawesome.com/2c43223b58.js" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+        <img class="mr-3" img src="/media/ksp.jpg" alt="Generic placeholder image" width="50" height="30">
+        <div class="text-center">
+            <a class="navbar-brand" href="{% url 'homepage' %}">KROME Sports Performance</a>
+
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'about' %}">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Programs
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="{% url 'flexmob' %}">Mobility & Flexibility</a>
+                    <a class="dropdown-item" href="{% url 'conditioning' %}">Conditoning Speed & Agility</a>
+                    <a class="dropdown-item" href="{% url 'power' %}">Strength & Power</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Members</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+            </li>
+
+        </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="{% url 'user-profile' %}">{{ user.first_name }}<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'user-logout' %}">Logout</a>
+                </li>
+
+    </nav>
+
+    </nav>
+    <title>Strength & Power</title>
+</head>
+
+<body class="bg-dark">
+    <div class=" contatiner mr-3 p-3">
+        <div class="row justify-content-center">
+            <div class="text-center text-warning">
+                <div class="col-md-15">
+
+                    <div class=" embed-responsive-16by9">
+                        <iframe class="embed-responsive-item mx-auto " width="1000" height="315"
+                            src="https://www.youtube.com/embed/Oi0U2j-5ifU" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h1>Strength & Power: Building Champions</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" contatiner">
+        <div class="row justify-content-center">
+            <div class="text-center">
+                <div class="col-md-15">
+                    <div class="card-deck ">
+                        <div class="card border-warning mb-2" style="max-width: 18rem;">
+                            <div class="card-body text-warning">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"> These two are the building blocks of the KSP
+                                    training philosophy.
+                                    Understanding how
+                                    to generate movements
+                                    from the ground up is essential when it comes to unlocking power
+                                    from the posterior
+                                    chain.</p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-2" style="max-width: 18rem;">
+                            <div class="card-body text-warning">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">Our goal is to help athletes understand adherence
+                                    to a properly
+                                    organized strength
+                                    program is essential to
+                                    ensure athletes can achieve optimal performance at an elite level.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-2" style="max-width: 18rem;">
+                            <div class="card-body text-warning">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">Looking the part
+                                    is one thing but being a
+                                    physical speciman and having the ability to translate sports
+                                    performance
+                                    philosophies to field creates a the
+                                    elite player every athlete strives to be..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mb-2 p-2">
+                        <center><button type="button" class="btn btn-outline-warning btn-lg">LET'S
+                                WORK</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" contatiner mr-3 p-3">
+        <div class="row justify-content-center">
+            <div class="text-center text-warning">
+                <div class="col-md-15">
+                    <div>
+                        <h1>REASONS TO BECOME A KSP ATHLETE</h1>
+                        <div class="text-white">
+                            <div>
+                                <p>Looking to gain an athletic edge over your compition? You have come
+                                    to
+                                    the
+                                    right
+                                    place!
+                                    With over a few thousand KSP athletes, KROME SPORTS PERFORMANCE
+                                    is known as the one of the top resources when it comes to training
+                                    athletes.
+
+                                    Our researched
+                                    based
+                                    training programs ensure
+                                    increase in strength, speed, power, and mobility, while reducing
+                                    risk of
+                                    injuries
+                                    in order to reach optimal performance.</p>
+                                <p>
+                                <h2>Our motto is
+                                    simple:</h2>
+                                <p>
+                            </div>
+                        </div>
+                        <bold>
+                            <h1>
+                                TRAIN TO BE ELITE!
+                            </h1>
+                        </bold>
+                    </div>
+                </div>
+                <img class="rounded align-self-center mr-3 p-2 " src="/media/ksp.jpg" alt="Generic placeholder image"
+                    width="600" height="400">
+            </div>
+            <div class="container mb-1 p-2">
+                <center><button type="button" class="btn btn-outline-warning btn-lg">LET'S WORK</button>
+                </center>
+            </div>
+            <div class=" contatiner mr-4 p-5">
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <div class="col-md-15">
+                            <div class="card-deck ">
+                                <div class="card border-warning mb-4" style="max-width: 18rem;">
+
+                                    <div class="card-header text-dark">Results Driven
+
+                                    </div>
+                                    <div class="card-body text-dark">
+                                        <h5 class="card-title"></h5>
+                                        <i class="fa fa-thumbs-o-up fa-xl" aria-hidden="true"></i>
+                                        <p class="card-text"> Thousands of athletes with amazing results. Our
+                                            programs are composed by
+                                            highly trained
+                                            and
+                                            certified proffesionals. From elite athletes to youth, we
+                                            have a program for all athletes.</p>
+                                    </div>
+                                </div>
+                                <div class="card border-warning mb-4" style="max-width: 18rem;">
+
+                                    <div class="card-header text-dark">Affordable
+
+                                    </div>
+                                    <div class="card-body text-dark">
+                                        <h5 class="card-title"></h5>
+                                        <i class="fa fa-money fa-xl" aria-hidden="true"></i>
+                                        <p class="card-text"> Our programs were built to help athletes and
+                                            coaches, not break
+                                            them. Become
+                                            a memeber and
+                                            gain access to all of our Elite programs and resources. From elite
+                                            athletes
+                                            to youth, we
+                                            have a program for all athletes.</p>
+                                    </div>
+                                </div>
+                                <div class="card border-warning mb-4" style="max-width: 18rem;">
+
+                                    <div class="card-header text-dark">All Access
+
+                                    </div>
+                                    <div class="card-body text-dark">
+                                        <h5 class="card-title"></h5>
+                                        <i class="fa fa-play fa-xl" aria-hidden="true"></i>
+                                        <p class="card-text"> Enjoy all access to programs, blogs, articles,
+                                            instructional videos,
+                                            shop
+                                            discounts,
+                                            event broadcasting on KSP-TV, and access to a KSP Coach through chat
+                                            or
+                                            email.</p>
+                                    </div>
+                                </div>
+                                <div class="card border-warning mb-4" style="max-width: 18rem;">
+
+                                    <div class="card-header text-dark">Efficient & Effective
+
+                                    </div>
+                                    <div class="card-body text-dark">
+                                        <h5 class="card-title"></h5>
+                                        <i class="fa fa-bolt fa-xl" aria-hidden="true"></i>
+                                        <p class="card-text"> All KSP programs are easy to follow and
+                                            customizable giving you full
+                                            control
+                                            over your
+                                            training experience. KSP creates the perfect
+                                            opportunity
+                                            build the perfect training solution to achieve your goals</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contatiner mr-3 p-3">
+                            <div class="text-center text-warning">
+                                <div class="col-md-12 ">
+                                    <center>
+                                        <h1>BENEFITS OF STRENGTH & POWER PROGRAMS</h1>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" contatiner mr-3 p-3">
+                            <div class="row justify-content-center">
+                                <div class="text-center">
+                                    <div class="col-md-15">
+                                        <div class="card-deck ">
+                                            <div class="card border-warning mb-3" style="max-width: 18rem;">
+                                                <div class="card-header text-warning">Improved Athletic
+                                                    Performance:
+                                                </div>
+                                                <div class="card-body text-warning">
+                                                    <h5 class="card-title"></h5>
+                                                    <p class="card-text"> Strength and power exercises can help
+                                                        athletes improve their
+                                                        performance in their specific sport by increasing muscle
+                                                        strength and power, as well
+                                                        as
+                                                        improving
+                                                        their speed and agility.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-warning mb-3" style="max-width: 18rem;">
+                                                <div class="card-header text-warning ">Injury Prevention</div>
+                                                <div class="card-body text-warning">
+                                                    <h5 class="card-title"></h5>
+                                                    <p class="card-text">Strong muscles can help protect against
+                                                        injuries by
+                                                        providing support to
+                                                        joints
+                                                        and increasing stability.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-warning mb-3" style="max-width: 18rem;">
+                                                <div class="card-header text-warning">Increased Muscle Mass:
+                                                </div>
+                                                <div class="card-body text-warning">
+                                                    <h5 class="card-title"></h5>
+                                                    <p class="card-text"> Strength and power exercises can help
+                                                        athletes
+                                                        increase their
+                                                        muscle
+                                                        mass,
+                                                        which can be beneficial for sports that require a
+                                                        certain
+                                                        level
+                                                        of muscle mass or
+                                                        strength.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <center><button type="button" class="btn btn-outline-warning btn-lg">LET'S WORK</button>
+                        </center>
+                        <!-- Optional JavaScript -->
+                        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+                            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+                            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                            crossorigin="anonymous"></script>
+</body>
+
+</html>
